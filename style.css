@@ -14,6 +14,10 @@ body{overflow-x: hidden;
     background-color: lightgray;
 }
 #titolohomepage{
+    color: black;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
     font-family:sinistre;
     font-size: 11rem;
                 }
@@ -21,7 +25,7 @@ body{overflow-x: hidden;
     {
         font-family:sinistre;
      left:2rem;
-     margin-top:0rem;
+     margin-top:5rem;
      font-family: Arial, Helvetica, sans-serif;
     z-index: -10;
     }
@@ -30,3 +34,23 @@ body{overflow-x: hidden;
     .dispari1{margin-top:30rem; margin-right:4rem; z-index: -11;}
     .pari2{margin-top:20rem; margin-left:4rem;z-index: -11;}
     .dispari2{margin-top:15rem; margin-right:4rem;}
+
+    
+        .marquee1 {
+            z-index: -11;
+            animation: marquee 100s linear infinite;
+        }
+    
+        .marquee2 {
+            z-index: -9;
+            animation: marquee 100s linear infinite;
+        }
+    
+    @keyframes marquee {
+      from {
+        transform: translateY(0);
+      }
+      to {
+        transform: translateY(-150%);
+      }
+    }
