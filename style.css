@@ -5,21 +5,28 @@
   }
   .immaginihome {width:20rem; height:auto;}
 
-#containertitolohome{position: fixed; z-index:-10 ;}
+#containertitolohome{
+    position: fixed;
+     z-index:-10 ;
+    top:35vh;
+    }
 body{overflow-x: hidden; 
     background-color: lightgray;
 }
-.titolohomepage{
+#titolohomepage{
     font-family:sinistre;
+    font-size: 11rem;
                 }
 .descrizionehome
     {
         font-family:sinistre;
      left:2rem;
-     margin-top:10rem;
+     margin-top:0rem;
      font-family: Arial, Helvetica, sans-serif;
     z-index: -10;
     }
 
-    .pari{margin-top:15rem; margin-left:4rem;}
-    .dispari{margin-top:19rem;}
+    .pari1{margin-top:40rem; margin-left:4rem; }
+    .dispari1{margin-top:30rem; margin-right:4rem; z-index: -11;}
+    .pari2{margin-top:20rem; margin-left:4rem;z-index: -11;}
+    .dispari2{margin-top:15rem; margin-right:4rem;}
