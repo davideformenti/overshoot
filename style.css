@@ -12,12 +12,10 @@
     }
 body{overflow-x: hidden; 
     background-color: lightgray;
+    overflow-y: hidden;
 }
 #titolohomepage{
     color: black;
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
     font-family:sinistre;
     font-size: 11rem;
                 }
@@ -38,12 +36,12 @@ body{overflow-x: hidden;
     
         .marquee1 {
             z-index: -11;
-            animation: marquee 100s linear infinite;
+            animation: marquee 60s linear infinite;
         }
     
         .marquee2 {
             z-index: -9;
-            animation: marquee 100s linear infinite;
+            animation: marquee 60s linear infinite;
         }
     
     @keyframes marquee {
